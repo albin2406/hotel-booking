@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax-1{
+    background:url('./images/hero_4.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.parallax-1:before {
+    background: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    height: 700px;
+    /* min-height: 600px; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.parallax-inner{
+    padding: 23% 0;
+}
+.parallax-inner h1{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+.row-1{
+    display: flex;
+    background-color: #f2f2f2;
+}
+.head-2 img{
+    width: 100%;
+    padding: 10%;
+    border-radius: 48px;
+}
+.head-1{
+    margin: 10%;
+}
+.head-1 p{
+    font-size: 18px;
+    line-height: 30px;
+    color: gray;
+}
+.head-1 h2{
+    font-size: 50px;
+    color: orange;
+}
+.head-1 button{
+    border: 0;
+    background-color: orange;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#room h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 5%;
+}
+#room p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    color: gray;
+    margin-bottom: 90px;
+}
+.room-1 h2{
+    text-align: center;
+    padding: 5%;
+    font-size: 30px;
+    font-weight: 100;
+}
+.room-1 h3{
+    text-align: center;
+    font-size: 25px;
+    color: orange;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+.rooms{
+    display: flex;
+    justify-content: center;
+}
+.room-1{
+    padding: 1%;
+    cursor: pointer;
+}
+
+.parallax-2{
+    background:url('./images/hero_3.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.best h2{
+    padding: 7%;
+    color: #fff;
+    font-size: 35px;
+}
+.best button{
+    background-color: orange;
+    border: 0;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.best button:hover{
+    background-color: white;
+    color: black;
+}
+
+.parallax-inner h3{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    color: orange;
+}
+.parallax-inner h3 a{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    color: orange;
+    text-decoration: none;
+    font-size: 30px
+}
+.parallax-inner ul a{
+    text-decoration: none;
+    color: orange;
+    font-size: 25px;
+    margin: 20px;
+}
+.parallax-inner ul{
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -330px;
+    position: absolute;
+}
+.parallax-inner ul a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
